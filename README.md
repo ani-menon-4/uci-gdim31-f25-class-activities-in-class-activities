@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+1. Detatching the Camera from the Cat GameObject and running the project causes the Camera to not follow the Cat - when the Cat moves, the Camera will not stay fixed within the Cat's face, but rather will stay in its initial position, floating in the air.
+2. https://ani-m.itch.io/ani-m-w1-in-class-activity
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
