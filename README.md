@@ -19,7 +19,7 @@
 - The Class operates as a general design, or blueprint, that the Component will follow, where methods and member variables indicate specifications on the blueprint that may be modified in order to create a different type of the initial design.
 
 #### Activity 3: Devlog Question
-1. 
+1. I believe this is due to the fact that the Ball's color is multiplied continuously by 1.5 in the GetColorMultiplier method if the Ball's speed exceeds the speed threshold. Therefore, the color will continue to get brighter the faster the ball is travelling.
 
 ## Open-Source Assets
 ### W1
