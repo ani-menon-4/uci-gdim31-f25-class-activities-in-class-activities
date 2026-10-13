@@ -2729,7 +2729,7 @@ MonoBehaviour:
   _speed: 5
   _jump: 5
   _healthText: {fileID: 1949470243}
-  _pointsText: {fileID: 0}
+  _pointsText: {fileID: 1045727912}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
   _destroyCatWhenDead: 1
