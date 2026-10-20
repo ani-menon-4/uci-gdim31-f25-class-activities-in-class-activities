@@ -7,6 +7,7 @@ public class SoccerBall : MonoBehaviour
     [SerializeField] private TMP_Text _pointsText;
     [SerializeField] private TMP_Text _timeText;
     [SerializeField] private ParticleSystem _goalVFX;
+    [SerializeField] private int _pointsCounter;
 
     // STEP 1 -----------------------------------------------------------------
     // The OnTriggerEnter method is a collision method called by Unity that
@@ -24,7 +25,7 @@ public class SoccerBall : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // finish STEP 1 by uncommenting and fixing the below line!
-        // Note: This Deblug.Log() line has been moved in accordance with Step 2.
+        // Note: The Debug.Log() line has been moved in accordance with Step 2.
 
         // STEP 2 -------------------------------------------------------------
         // Write an IF STATEMENT to check if the game object we collided with
@@ -35,7 +36,7 @@ public class SoccerBall : MonoBehaviour
         //      the colliding object has the "Goal" tag.
         if (other.gameObject.tag.Equals("Goal"))
         {
-            //Note: The Debug.Log() line has been moved in accordance with Step 3.
+            // Note: The Debug.Log() line has been moved in accordance with Step 3.
             MadeGoal();
         }
 
@@ -65,7 +66,10 @@ public class SoccerBall : MonoBehaviour
         // Call Play on _goalVFX.
         _goalVFX.Play();
         // STEP 4 -------------------------------------------------------------
-    
+
+        // Note: Code as specified by Step 5 has been added below.
+        _pointsCounter++;
+        _pointsText.text = "points: " + _pointsCounter;
     }
     // STEP 3 -----------------------------------------------------------------
 
@@ -86,6 +90,7 @@ public class SoccerBall : MonoBehaviour
     //
     // STEP 5 -----------------------------------------------------------------
     
+    // This step has been completed.
 
     // STEP 6 -----------------------------------------------------------------
     // Like the last step, these flags do NOT show you where to put all of the
