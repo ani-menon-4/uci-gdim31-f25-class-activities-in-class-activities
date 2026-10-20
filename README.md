@@ -21,6 +21,14 @@
 #### Activity 3: Devlog Question
 1. I believe this is due to the fact that the Ball's color is multiplied continuously by 1.5 in the GetColorMultiplier method if the Ball's speed exceeds the speed threshold. Therefore, the color will continue to get brighter the faster the ball is travelling.
 
+### W4
+#### Activity 1: Collision Discussion Activity (Table 18)
+1. The Cat and SoccerBall do not need IsTrigger enabled, as they have to be solid objects. However, the goal does needs IsTrigger enabled as the ball needs to detect and pass through the goal when colliding, thus necessitating the goal to not physically prevent the ball from moving through it.
+
+    As for which objects need a RigidBody Components, I would say that only Cat and SoccerBall need the RigidBody Component as they need to do physics simulations like moving around and bouncing when colliding.
+
+2. The only error I ran into was the Cat performing a sort of "barrel roll" when touching the SoccerBall. This is because I forgot to enable the Freeze X, Y, and Z constraints to the Cat's RigidBody Component. Enabling these constraints fixed the problem.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
