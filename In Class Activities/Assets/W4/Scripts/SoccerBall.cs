@@ -8,6 +8,7 @@ public class SoccerBall : MonoBehaviour
     [SerializeField] private TMP_Text _timeText;
     [SerializeField] private ParticleSystem _goalVFX;
     [SerializeField] private int _pointsCounter;
+    [SerializeField] private float _timeSinceLastGoal;
 
     // STEP 1 -----------------------------------------------------------------
     // The OnTriggerEnter method is a collision method called by Unity that
@@ -70,6 +71,9 @@ public class SoccerBall : MonoBehaviour
         // Note: Code as specified by Step 5 has been added below.
         _pointsCounter++;
         _pointsText.text = "points: " + _pointsCounter;
+
+        // Note: Code as specified by Step 6 has been added below.
+        _timeSinceLastGoal = 0f;
     }
     // STEP 3 -----------------------------------------------------------------
 
@@ -91,6 +95,7 @@ public class SoccerBall : MonoBehaviour
     // STEP 5 -----------------------------------------------------------------
     
     // This step has been completed.
+    // See line 10, lines 71-73.
 
     // STEP 6 -----------------------------------------------------------------
     // Like the last step, these flags do NOT show you where to put all of the
@@ -107,4 +112,13 @@ public class SoccerBall : MonoBehaviour
     //      2. Use the MadeGoal method to reset your
     //              time variable when the player makes a goal. 
     // STEP 6 -----------------------------------------------------------------
+
+    // This step has been completed.
+    // See line 11, lines 75-76, lines 119-123.
+
+    public void Update()
+    {
+        _timeSinceLastGoal += Time.deltaTime;
+        _timeText.text = "time since last goal: " + _timeSinceLastGoal;
+    }
 }
