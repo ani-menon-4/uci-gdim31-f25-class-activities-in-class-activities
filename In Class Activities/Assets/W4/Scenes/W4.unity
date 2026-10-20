@@ -5758,7 +5758,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.3
+  m_fontSize: 50
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6971,6 +6971,7 @@ GameObject:
   - component: {fileID: 6397291155275392798}
   - component: {fileID: 6397291155275392799}
   - component: {fileID: 6397291155275392800}
+  - component: {fileID: 6397291155275392801}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -7069,6 +7070,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &6397291155275392801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397291155275392791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
+  _rigidBody: {fileID: 6397291155275392800}
+  _bounceForce: 6
 --- !u!1 &6499904795538962815
 GameObject:
   m_ObjectHideFlags: 0
@@ -7337,6 +7352,7 @@ GameObject:
   - component: {fileID: 8101201615804560248}
   - component: {fileID: 8101201615804560249}
   - component: {fileID: 8101201615804560250}
+  - component: {fileID: 8101201615804560251}
   m_Layer: 0
   m_Name: SoccerBall
   m_TagString: Ball
@@ -7472,6 +7488,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8101201615804560251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741058300408910497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
+  _rigidBody: {fileID: 8101201615804560250}
+  _bounceForce: 6
 --- !u!4 &8115783459852817865
 Transform:
   m_ObjectHideFlags: 0
