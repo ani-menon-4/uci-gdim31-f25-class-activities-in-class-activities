@@ -55,6 +55,7 @@ public class CatW5 : MonoBehaviour
             translation = Vector3.back;
         }
 
+        translation.z *= _flipWSControls ? -1 : 1;
         transform.Translate(0, 0, translation.z * _moveSpeed * Time.deltaTime);
 
         // STEP 1 & 2 ---------------------------------------------------------
