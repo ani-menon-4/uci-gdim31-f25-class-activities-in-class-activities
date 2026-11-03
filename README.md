@@ -29,6 +29,15 @@
 
 2. The only error I ran into was the Cat performing a sort of "barrel roll" when touching the SoccerBall. This is because I forgot to enable the Freeze X, Y, and Z constraints to the Cat's RigidBody Component. Enabling these constraints fixed the problem.
 
+### W5
+To begin with, it's clear that requirement 2 necessitates that the class be given a MonoBehaviour in order to have it be able to be added as a Component to the Deer GameObject.
+
+Additionally, a member variable that represents the Transform instance of the target GameObject that the deer will walk towards is needed to satisfy requirements 1 and 3.
+
+Requirement 4 is a little confusing to me personally, but operating on the assumption that we do not need to account for a case where the GameObject which DeerW5 is a Component of has a NavMeshAgent: we can just have a member variable (not exposed to the inspector, probably unnecessary) that is instantiated with the NavMeshAgent Component reference.
+
+As for requirement 5, I believe that this can be resolved by having Update() call the SetDestination() method from the reference to the NavMeshAgent with the Transform of the target GameObject as an argument, as this allows the Deer to path to the target while accounting for it potentially moving over time.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
