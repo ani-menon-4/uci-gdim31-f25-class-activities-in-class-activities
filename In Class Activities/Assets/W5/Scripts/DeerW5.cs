@@ -15,10 +15,6 @@ public class DeerW5 : MonoBehaviour
     public void Start()
     {
         navAgent = gameObject.GetComponent<NavMeshAgent>();
-    }
-
-    public void Update()
-    {
         navAgent.SetDestination(targetObjTrans.position);
     }
 }

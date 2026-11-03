@@ -36,7 +36,7 @@ Additionally, a member variable that represents the Transform instance of the ta
 
 Requirement 4 is a little confusing to me personally, but operating on the assumption that we do not need to account for a case where the GameObject which DeerW5 is a Component of has a NavMeshAgent: we can just have a member variable (not exposed to the inspector, probably unnecessary) that is instantiated with the NavMeshAgent Component reference.
 
-As for requirement 5, I believe that this can be resolved by having Update() call the SetDestination() method from the reference to the NavMeshAgent with the Transform of the target GameObject as an argument, as this allows the Deer to path to the target while accounting for it potentially moving over time.
+As for requirement 5, I believe that this can be resolved by having Start() call the SetDestination() method from the reference to the NavMeshAgent with the Transform of the target GameObject as an argument.
 
 ## Open-Source Assets
 ### W1
