@@ -1,3 +1,4 @@
+using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -5,3 +6,19 @@ using UnityEngine.AI;
 // Hint: if you don't remember what a class is supposed to look like,
 //      maybe check out CatW5...
 // If you copied the class declaration from CatW5, you'd only need to change one thing...
+
+public class DeerW5 : MonoBehaviour
+{
+    [SerializeField] private Transform targetObjTrans;
+    private NavMeshAgent navAgent;
+
+    public void Start()
+    {
+        navAgent = gameObject.GetComponent<NavMeshAgent>();
+    }
+
+    public void Update()
+    {
+        navAgent.SetDestination(targetObjTrans.position);
+    }
+}
