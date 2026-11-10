@@ -38,6 +38,27 @@ Requirement 4 is a little confusing to me personally, but operating on the assum
 
 As for requirement 5, I believe that this can be resolved by having Start() call the SetDestination() method from the reference to the NavMeshAgent with the Transform of the target GameObject as an argument.
 
+### W7
+#### Activity 1: Class Resource Guide
+- Category Assignment - Unity Engine
+- Link to document - https://docs.google.com/document/d/1XDWYyMudvxGwSmHYFAoLHSPJA9q0LByFpcUUr684WHo/edit?usp=sharing
+
+#### Activity 2: Pair Programming
+##### Specifications
+- BatW6 makes the Bat chase the Cat object when enabled -> chase behavior should be in Update()
+- Attachd to Bat GameObjects as a Component - Monobehaviour must be enabled
+- Speed value tunable in editor - Member variable representing speed should be exposed to the Inspector via SerializeField
+- BatManager must be able to call separate methods that stop and start the chasing behavior - two methods that enable/disable a check in Update() that then permits/disables chasing behavior
+
+##### Answering Devlog Questions
+- What member variables are needed?
+    - Speed variable (exposed to editor, likely int)
+    - WillChase variable (boolean)
+- What methods does class need/what should these methods do?
+    - Enabling chase behavior method (public, void, no parameters)
+    - Disabling chase behavior method (public, void, no parameters)
+    - Update() method (public, called every frame, used to check for/carry out chasing behavior)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
