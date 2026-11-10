@@ -1472,6 +1472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &524616927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,6 +6038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &925081785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,6 +6084,13 @@ MonoBehaviour:
   - {fileID: 1077408847}
   - {fileID: 2130503367}
   - {fileID: 1583297592}
+  _messages:
+  - Fun is Infinite
+  - Later days, pal!
+  - That bandana doesn't look very good on you, you know.
+  - What is a cat? A miserable little pile of secrets!
+  - Maybe these messages have too many references in them...
+  - Bat noise. Bat noise.
   _newTextTimers: []
 --- !u!4 &925081787
 Transform:
@@ -6238,6 +6247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1191025099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7532,6 +7542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1297971674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7915,6 +7926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1465828718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,6 +8220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1553064438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8398,6 +8411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1588197157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8648,6 +8662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1640385369
 GameObject:
   m_ObjectHideFlags: 0
@@ -9104,6 +9119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &1975271561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9397,6 +9413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   _speed: 1.5
+  player: {fileID: 137124478}
 --- !u!1 &2144879476
 GameObject:
   m_ObjectHideFlags: 0
