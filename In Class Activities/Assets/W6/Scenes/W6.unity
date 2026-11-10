@@ -1471,8 +1471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &524616927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,8 +6036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &925081785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6073,6 +6071,17 @@ MonoBehaviour:
   _timeBetweenNewMessages: 0.5
   _playerTransform: {fileID: 137124478}
   _reactionUiPrefab: {fileID: 1213822324474933021, guid: 57c2a2a51066041a1985ab96803a3aa7, type: 3}
+  _bats:
+  - {fileID: 1639799784}
+  - {fileID: 1492021330}
+  - {fileID: 429572122}
+  - {fileID: 880500753}
+  - {fileID: 1267810460}
+  - {fileID: 1388478209}
+  - {fileID: 1973095154}
+  - {fileID: 1077408847}
+  - {fileID: 2130503367}
+  - {fileID: 1583297592}
   _newTextTimers: []
 --- !u!4 &925081787
 Transform:
@@ -6228,8 +6237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1191025099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7523,8 +7531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1297971674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7907,8 +7914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1465828718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,8 +8207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1553064438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8392,8 +8397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1588197157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8643,8 +8647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1640385369
 GameObject:
   m_ObjectHideFlags: 0
@@ -9100,8 +9103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &1975271561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9394,8 +9396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  _speed: 0
-  player: {fileID: 137124478}
+  _speed: 1.5
 --- !u!1 &2144879476
 GameObject:
   m_ObjectHideFlags: 0
