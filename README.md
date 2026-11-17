@@ -59,6 +59,9 @@ As for requirement 5, I believe that this can be resolved by having Start() call
     - Disabling chase behavior method (public, void, no parameters)
     - Update() method (public, called every frame, used to check for/carry out chasing behavior)
 
+### W8
+1. The code of step 2 was incorrect because it did not allow for the muskrat to change position in relation to where it was looking in, but rather only in terms of the World Space. This would result in the muskrat being able to turn around just fine, but be unable to change position freely - essentially, it would appear to behave as though it were moving along an invisible line. To remedy this, I used the Transform.Translate() method and fed the Vector3 change present in the original code of step2 as an argument to the translation parameter. Using this particular method allows for the ability to specify the usage of Local Space when changing position, which is a crucial step if the muskrat is to move forward/backwards in the direction that it is facing.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
